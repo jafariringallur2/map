@@ -4,7 +4,7 @@
 <html>
 <head>
     <title>Google Maps Directions</title>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXmnsxqjaUs1Peo1FRlw4FcGZoKLevCHQ&libraries=places"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key={{env('MAP_API_KEY')}}&libraries=places"></script>
 </head>
 <body style="margin: 0; padding: 0;">
     <div id="map" style="width: 100%; height: 100vh;"></div>

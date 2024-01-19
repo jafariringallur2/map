@@ -31,7 +31,7 @@ class MapController extends Controller
         $apiEndpoint = 'https://maps.googleapis.com/maps/api/directions/json';
         $origin = $keralaCities[1];
         $destination = $keralaCities[2];
-        $apiKey = 'AIzaSyBXmnsxqjaUs1Peo1FRlw4FcGZoKLevCHQ';
+        $apiKey = env('MAP_API_KEY');
 
         // Create a Guzzle client
         $client = new Client();
